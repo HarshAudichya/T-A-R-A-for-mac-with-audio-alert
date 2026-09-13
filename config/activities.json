@@ -1,0 +1,108 @@
+{
+  "Basic Human Activities": {
+    "description": "Standard unassisted body pose activities without specific payload objects",
+    "required_objects": [],
+    "sequence": [
+      { "step": 1, "activity": "Stand", "instruction": "Stand normally in front of the payload rack", "required_object": null },
+      { "step": 2, "activity": "Raise Both Hands", "instruction": "Raise both hands above your shoulders", "required_object": null },
+      { "step": 3, "activity": "Hands Together", "instruction": "Bring both hands together in front of your body", "required_object": null },
+      { "step": 4, "activity": "Raise Right Hand", "instruction": "Raise only your right hand", "required_object": null },
+      { "step": 5, "activity": "Sit", "instruction": "Sit down on a workstation seat", "required_object": null },
+      { "step": 6, "activity": "Stand", "instruction": "Stand up again", "required_object": null },
+      { "step": 7, "activity": "Raise Left Hand", "instruction": "Raise left hand to signal step completion", "required_object": null }
+    ]
+  },
+  "Phone Activities": {
+    "description": "Interactions with mobile communication payload tool",
+    "required_objects": ["Phone"],
+    "sequence": [
+      { "step": 1, "activity": "Pick Up Phone", "instruction": "Reach out and pick up the Phone", "required_object": "Phone" },
+      { "step": 2, "activity": "Hold Phone", "instruction": "Hold the Phone steadily in your hand", "required_object": "Phone" },
+      { "step": 3, "activity": "Raise Phone", "instruction": "Raise the Phone up to chest level", "required_object": "Phone" },
+      { "step": 4, "activity": "Bring Phone Near Face", "instruction": "Bring the Phone near your face for inspection", "required_object": "Phone" },
+      { "step": 5, "activity": "Put Phone Down", "instruction": "Place the Phone back down on the surface", "required_object": "Phone" }
+    ]
+  },
+  "Pen Activities": {
+    "description": "Interactions with payload documentation pen",
+    "required_objects": ["Pen"],
+    "sequence": [
+      { "step": 1, "activity": "Pick Up Pen", "instruction": "Pick up the Experiment Pen", "required_object": "Pen" },
+      { "step": 2, "activity": "Hold Pen", "instruction": "Hold the Pen in writing position", "required_object": "Pen" },
+      { "step": 3, "activity": "Move Pen", "instruction": "Move the Pen across the work surface", "required_object": "Pen" },
+      { "step": 4, "activity": "Write With Pen", "instruction": "Simulate writing log notes with the Pen", "required_object": "Pen" },
+      { "step": 5, "activity": "Put Pen Down", "instruction": "Return the Pen to the holder", "required_object": "Pen" }
+    ]
+  },
+  "Chair Activities": {
+    "description": "Workstation seat positioning and seating interactions",
+    "required_objects": ["Chair"],
+    "sequence": [
+      { "step": 1, "activity": "Approach Chair", "instruction": "Walk towards the workstation Chair", "required_object": "Chair" },
+      { "step": 2, "activity": "Stand Near Chair", "instruction": "Stand directly in front of the Chair", "required_object": "Chair" },
+      { "step": 3, "activity": "Sit On Chair", "instruction": "Sit down on the Chair", "required_object": "Chair" },
+      { "step": 4, "activity": "Stand From Chair", "instruction": "Stand up from the Chair", "required_object": "Chair" }
+    ]
+  },
+  "Box Activities": {
+    "description": "Experiment payload sample Box handling",
+    "required_objects": ["Box"],
+    "sequence": [
+      { "step": 1, "activity": "Approach Box", "instruction": "Approach the payload Box", "required_object": "Box" },
+      { "step": 2, "activity": "Touch Box", "instruction": "Touch the top lid of the Box", "required_object": "Box" },
+      { "step": 3, "activity": "Pick Up Box", "instruction": "Pick up the payload Box", "required_object": "Box" },
+      { "step": 4, "activity": "Hold Box", "instruction": "Hold the Box with both hands", "required_object": "Box" },
+      { "step": 5, "activity": "Move Box", "instruction": "Move the Box to the target slot", "required_object": "Box" },
+      { "step": 6, "activity": "Put Box Down", "instruction": "Place the Box securely on the rack", "required_object": "Box" }
+    ]
+  },
+  "Bottle Activities": {
+    "description": "Fluid experiment sample Bottle handling",
+    "required_objects": ["Bottle"],
+    "sequence": [
+      { "step": 1, "activity": "Pick Up Bottle", "instruction": "Pick up the fluid sample Bottle", "required_object": "Bottle" },
+      { "step": 2, "activity": "Hold Bottle", "instruction": "Hold the Bottle vertically", "required_object": "Bottle" },
+      { "step": 3, "activity": "Raise Bottle", "instruction": "Raise the Bottle up to eye level", "required_object": "Bottle" },
+      { "step": 4, "activity": "Move Bottle", "instruction": "Move the Bottle across the workstation", "required_object": "Bottle" },
+      { "step": 5, "activity": "Put Bottle Down", "instruction": "Place the Bottle back in its holder", "required_object": "Bottle" }
+    ]
+  },
+  "Book Activities": {
+    "description": "Mission checklist Book handling",
+    "required_objects": ["Book"],
+    "sequence": [
+      { "step": 1, "activity": "Pick Up Book", "instruction": "Pick up the experiment manual Book", "required_object": "Book" },
+      { "step": 2, "activity": "Hold Book", "instruction": "Hold the Book open", "required_object": "Book" },
+      { "step": 3, "activity": "Move Book", "instruction": "Move the Book to the reference stand", "required_object": "Book" },
+      { "step": 4, "activity": "Put Book Down", "instruction": "Place the Book on the table", "required_object": "Book" }
+    ]
+  },
+  "Multi-Object Experiment": {
+    "description": "Complex multi-object experiment sequence demonstrating heterogeneous payload interactions",
+    "required_objects": ["Phone", "Bottle", "Chair"],
+    "sequence": [
+      { "step": 1, "activity": "Pick Up Phone", "instruction": "Pick up the Phone", "required_object": "Phone" },
+      { "step": 2, "activity": "Hold Phone", "instruction": "Hold the Phone", "required_object": "Phone" },
+      { "step": 3, "activity": "Put Phone Down", "instruction": "Put the Phone down", "required_object": "Phone" },
+      { "step": 4, "activity": "Pick Up Bottle", "instruction": "Pick up the Bottle", "required_object": "Bottle" },
+      { "step": 5, "activity": "Hold Bottle", "instruction": "Hold the Bottle", "required_object": "Bottle" },
+      { "step": 6, "activity": "Put Bottle Down", "instruction": "Put the Bottle down", "required_object": "Bottle" },
+      { "step": 7, "activity": "Move Toward Chair", "instruction": "Move toward the Chair", "required_object": "Chair" },
+      { "step": 8, "activity": "Sit On Chair", "instruction": "Sit on the Chair", "required_object": "Chair" },
+      { "step": 9, "activity": "Stand From Chair", "instruction": "Stand up from the Chair", "required_object": "Chair" }
+    ]
+  },
+  "ISRO Red & Yellow Box BAS Experiment": {
+    "description": "Official ISRO Problem Statement 26174 sample experiment: outer container box containing smaller red and yellow payload sample boxes",
+    "required_objects": ["Box", "Red Box", "Yellow Box"],
+    "sequence": [
+      { "step": 1, "activity": "Approach Outer Box", "instruction": "Approach the outer experiment container box", "required_object": "Box" },
+      { "step": 2, "activity": "Open Outer Box", "instruction": "Open the lid of the outer container box", "required_object": "Box" },
+      { "step": 3, "activity": "Extract Red Box", "instruction": "Reach into container and lift out the Red Box", "required_object": "Red Box" },
+      { "step": 4, "activity": "Place Red Box on Rack", "instruction": "Place the Red Box securely onto the payload rack", "required_object": "Red Box" },
+      { "step": 5, "activity": "Extract Yellow Box", "instruction": "Reach into container and lift out the Yellow Box", "required_object": "Yellow Box" },
+      { "step": 6, "activity": "Place Yellow Box on Rack", "instruction": "Place the Yellow Box securely onto the payload rack", "required_object": "Yellow Box" },
+      { "step": 7, "activity": "Close Outer Box", "instruction": "Close the lid of the outer container box to complete the experiment", "required_object": "Box" }
+    ]
+  }
+}

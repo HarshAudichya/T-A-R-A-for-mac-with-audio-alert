@@ -1,0 +1,41 @@
+{
+  "experiment_name": "ISRO On-Board BAS Experiment Sequence",
+  "version": "1.0",
+  "steps": [
+    {
+      "id": 1,
+      "activity": "Stand",
+      "instruction": "Stand normally in front of the payload rack"
+    },
+    {
+      "id": 2,
+      "activity": "Raise Both Hands",
+      "instruction": "Raise both hands above your shoulders"
+    },
+    {
+      "id": 3,
+      "activity": "Hands Together",
+      "instruction": "Bring both hands together in front of your body"
+    },
+    {
+      "id": 4,
+      "activity": "Raise Right Hand",
+      "instruction": "Raise only your right hand to inspect the tool"
+    },
+    {
+      "id": 5,
+      "activity": "Sit",
+      "instruction": "Sit down on the workstation chair"
+    },
+    {
+      "id": 6,
+      "activity": "Stand",
+      "instruction": "Stand up again to conclude payload operation"
+    },
+    {
+      "id": 7,
+      "activity": "Raise Left Hand",
+      "instruction": "Raise left hand to signal experiment completion"
+    }
+  ]
+}

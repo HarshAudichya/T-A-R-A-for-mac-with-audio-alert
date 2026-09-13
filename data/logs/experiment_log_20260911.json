@@ -1,0 +1,42 @@
+[
+  {
+    "timestamp": "2026-09-11 23:28:50",
+    "step_id": 1,
+    "expected_activity": "Pick Up Pen",
+    "detected_activity": "Pick Up Pen",
+    "confidence": 0.94,
+    "status": "COMPLETED"
+  },
+  {
+    "timestamp": "2026-09-11 23:28:54",
+    "step_id": 2,
+    "expected_activity": "Hold Pen",
+    "detected_activity": "Hold Pen",
+    "confidence": 0.95,
+    "status": "COMPLETED"
+  },
+  {
+    "timestamp": "2026-09-11 23:28:56",
+    "step_id": 3,
+    "expected_activity": "Move Pen",
+    "detected_activity": "Move Pen",
+    "confidence": 0.9,
+    "status": "COMPLETED"
+  },
+  {
+    "timestamp": "2026-09-11 23:28:58",
+    "step_id": 4,
+    "expected_activity": "Write With Pen",
+    "detected_activity": "Write With Pen",
+    "confidence": 0.92,
+    "status": "COMPLETED"
+  },
+  {
+    "timestamp": "2026-09-11 23:28:59",
+    "step_id": 5,
+    "expected_activity": "Put Pen Down",
+    "detected_activity": "Put Pen Down",
+    "confidence": 0.91,
+    "status": "COMPLETED"
+  }
+]
